@@ -6,11 +6,11 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: MY_ECR_REPOSITORY
-  ECS_SERVICE: MY_ECS_SERVICE
-  ECS_CLUSTER: MY_ECS_CLUSTER
-  ECS_TASK_DEFINITION: MY_ECS_TASK_DEFINITION
-  CONTAINER_NAME: MY_CONTAINER_NAME
+  ECR_REPOSITORY: my-ecr-repository        # MUST be lowercase
+  ECS_SERVICE: my-ecs-service
+  ECS_CLUSTER: my-ecs-cluster
+  ECS_TASK_DEFINITION: my-task-def.json    # path of your task definition JSON
+  CONTAINER_NAME: my-container             # the name inside the task definition
 
 permissions:
   contents: read
