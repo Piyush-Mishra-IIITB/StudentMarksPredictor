@@ -18,4 +18,4 @@ A Machine Learning project that predicts a student's overall performance based o
 - Visualizations for better understanding of predictions.
 
 ---
-# THE WORKING LINK IS https://studentmarkspredictor-k2yqds4stw8ma29qvsjezc.streamlit.app/
+# THE WORKING LINK IS (https://studentmarkspredictor-ljpaj4enpfwdjrht3nukxt.streamlit.app/)
