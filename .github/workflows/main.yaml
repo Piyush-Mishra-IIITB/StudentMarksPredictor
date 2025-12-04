@@ -9,7 +9,7 @@ env:
   ECR_REPOSITORY: my-ecr-repository       # MUST be lowercase
   ECS_SERVICE: my-ecs-service
   ECS_CLUSTER: my-ecs-cluster
-  ECS_TASK_DEFINITION: ecs/my-task-def.json  # path to your task definition JSON
+  ECS_TASK_DEFINITION: ecs/task-def.json  # path to your task definition JSON
   CONTAINER_NAME: my-container             # container name inside the task definition
 
 permissions:
